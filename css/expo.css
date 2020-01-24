@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap' );
+
+*{
+	font-family: 'Dancing Script', cursive; 
+}
+.body {
+	background-image: url(../img/imagedefondprojet.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+h1 {
+	color: red;
+	width: 50%;
+	height: 80%;
+	font-size: 80px;
+	text-shadow: 20px 20px 20px pink;
+	text-align: center;
+	margin: auto;
+
+}
+h2 {
+	color: green;
+	font-size:60px;
+	text-align: center;
+	margin-left: 700px;
+	margin-right: 700px;
+	-moz-border-radius-topleft: 25px;
+-webkit-border-top-left-radius: 25px;
+ border-top-left-radius: 25px;
+-moz-border-radius-topright: 60px;
+-webkit-border-top-right-radius: 60px;
+border-top-right-radius: 60px;
+-moz-border-radius-bottomright: 25px;
+-webkit-border-bottom-right-radius: 25px;
+border-bottom-right-radius: 25px;
+-moz-border-radius-bottomleft: 60px;
+-webkit-border-bottom-left-radius: 60px;
+border-bottom-left-radius: 60px;
+background-color: orange;
+
+}
+.img1 {
+	background-size: cover;
+	height: 500px;
+}
+h3 {
+	color: blue;
+	font-size:40px;
+	text-align: center;
+	margin-left: 800px;
+	margin-right: 800px;
+	-moz-border-radius-topleft: 90px;
+-webkit-border-top-left-radius: 90px;
+ border-top-left-radius: 90px;
+-moz-border-radius-bottomright: 90px;
+-webkit-border-bottom-right-radius: 90px;
+border-bottom-right-radius: 90px;
+-moz-border-radius-bottomleft: 4px;
+-webkit-border-bottom-left-radius: 4px;
+border-bottom-left-radius: 4px;
+background-color: yellow;
+}
+.p {
+	font-size: 35px;
+	-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+background-color: #ccf5ff;
+}
+#titre {
+	margin-right: 550px;
+	margin-left: 550px;
+}
+h4 {
+	color: red;
+	width: 50%;
+	height: 80%;
+	font-size: 80px;
+	text-shadow: 20px 20px 20px pink;
+	text-align: center;
+	margin: auto;
+}
