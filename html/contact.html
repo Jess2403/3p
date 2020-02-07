@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Projet préfo</title>
+    <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/contact.css">
+    </head>
+
+    <body class="body">
+        <nav>
+            <ul>
+            	<li><a href="./index.html">Accueil</a></li>
+                <li><a href="./expo.html">Expérience Brussels</a></li>
+            	<li><a href="./interview.html">Interview</a></li>
+            </ul>
+        </nav>
+        <div class= "div">
+        <h1>Contact</h1>
+        <form method="post" action="testcontactphp.php">
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+                <label>Nom:</label>
+                <input type="text" name="nom" required autofocus><br>
+                <label>Prénom:</label>
+                <input type="text" name="prenom" required><br>
+                <label>Adresse mail:</label>
+                <input type="text" name="email" required><br>
+                <label>Votre email:</label>
+                <input type="text" name="email_confirmation" required><br>
+                <legend>Votre message</legend>
+                <textarea name="message" cols="60" rows="8" maxlenght="1000" required></textarea><br>
+                <input type="submit" name="envoi" value="Envoyer">
+            </fieldset>
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

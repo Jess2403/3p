@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap' );
+
+*{
+    font-family: 'Dancing Script', cursive; 
+}
+.body{
+    background-image: url(../img/parchemingris.jpg);
+    background-repeat: no-repeat;
+    background-size: 300%;
+}
+nav ul {
+    width: 460px;
+    padding: 0px;
+    margin: auto;
+    list-style-type: none;
+    
+}
+ul {
+    display: table;
+}
+nav ul li {
+    display: table-cell;
+}
+nav li a {
+    display: block;
+    width: 200px;
+    height:50px;
+    line-height: 50px;
+    padding: 10px;
+    margin: 0px;
+    border: 3px solid;
+    border-color: black;
+    border-collapse: collapse;
+    background-color: #07f5ed;
+    color: #1016de;
+    text-align: center;
+    font-size: 150%;
+}
+h1 {
+    color: #f59342;
+    width: 50%;
+    height: 80%;
+    font-size: 80px;
+    text-shadow: 20px 20px 20px #825938;
+    text-align: center;
+    margin: auto;
+    }
+fieldset {
+    font-size: 30px;
+    color: #3235a1;
+    border:2px solid #3235a1;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;  
+    border-radius:8px;  
+}
+input {
+    font-size:30px;
+    color: #3235a1;
+}

@@ -9,16 +9,35 @@
 	background-size: 100%;
 	
 }
-h1 {
-	color: red;
-	width: 50%;
-	height: 80%;
-	font-size: 80px;
-	text-shadow: 20px 20px 20px pink;
-	text-align: center;
-	margin: auto;
-
+nav ul {
+    width: 460px;
+    padding: 0px;
+    margin: auto;
+    list-style-type: none;
+    
 }
+ul {
+	display:table;
+}
+nav ul li {
+    display: table-cell;
+}
+nav li a {
+    display: block;
+    width: 200px;
+    height:50px;
+    line-height: 50px;
+    padding: 10px;
+    margin: 0px;
+    border: 3px solid;
+    border-color: black;
+    border-collapse: collapse;
+    background-color: #07f5ed;
+    color: #1016de;
+    text-align: center;
+    font-size: 150%;
+}
+
 h2 {
 	color: green;
 	font-size:60px;
